@@ -1,0 +1,19 @@
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.fade-out {
+  opacity: 0%;
+  transition: 1s;
+}
+
+.fade-in {
+  opacity: 100%;
+  transition: 1s;
+}
